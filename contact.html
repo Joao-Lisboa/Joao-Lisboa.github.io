@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contato — João Vítor Lisboa</title>
+  <meta name="description" content="Entre em contato com João Vítor Lisboa Silva.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="contact">
+  <header class="nav">
+    <div class="wrap">
+      <a href="index.html" class="logo">JL</a>
+      <nav>
+        <a href="index.html" data-nav="home" data-i18n="nav_home"></a>
+        <a href="resume.html" data-nav="resume" data-i18n="nav_resume"></a>
+        <a href="index.html#about" data-nav="about" data-i18n="nav_about"></a>
+        <a href="contact.html" data-nav="contact" data-i18n="nav_contact"></a>
+        <button id="lang" aria-label="Language">EN</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="form-wrap">
+    <h1 data-i18n="form_title"></h1>
+    <p class="sub" data-i18n="contact_text"></p>
+    <form id="contact-form">
+      <input name="first" type="text" required data-i18n-ph="ph_first">
+      <input name="last" type="text" data-i18n-ph="ph_last">
+      <input name="email" type="email" required data-i18n-ph="ph_email">
+      <textarea name="message" required data-i18n-ph="ph_msg"></textarea>
+      <button class="btn" type="submit" data-i18n="form_send"></button>
+    </form>
+  </main>
+
+  <section class="cta">
+    <div class="wrap">
+      <div>
+        <h2 data-i18n="cta_title"></h2>
+        <p data-i18n="cta_text"></p>
+      </div>
+      <a class="btn" href="mailto:dev.joao.lisboa@gmail.com">dev.joao.lisboa@gmail.com</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <span class="copy">© <span id="year"></span> João Vítor Lisboa Silva</span>
+      <div class="social">
+        <a href="https://github.com/Joao-Lisboa" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+        <a href="https://www.linkedin.com/in/dev-lisboa/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+        <a href="mailto:dev.joao.lisboa@gmail.com" aria-label="E-mail">@</a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
